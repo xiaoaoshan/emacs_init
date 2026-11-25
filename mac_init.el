@@ -33,6 +33,7 @@
 (setq whitespace-style
       (remove 'lines whitespace-style))
 (setq default-directory "~/code")
+(setq insert-directory-program "gls")
 (require 'use-package)
 (setq package-archives '(("gnu"    . "https://mirrors.ustc.edu.cn/elpa/gnu/")
                          ("nongnu" . "https://mirrors.ustc.edu.cn/elpa/nongnu/")
