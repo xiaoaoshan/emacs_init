@@ -111,7 +111,7 @@
 ;;;gtpel
 (use-package gptel
   :ensure t)
-(setq gptel-api-key "sk-2b5e55adfe1347669ec1cde4efdfae75")
+(setq gptel-api-key "sk-2b5e55adfe")
 (setq gptel-backend
       (gptel-make-openai "DeepSeek"
         :host "api.deepseek.com"
