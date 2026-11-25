@@ -144,11 +144,11 @@
       (append '((width . 120)
                 (height . 40)
                 (top . 40)
-                (left . 100))
+                (left . 400))
               default-frame-alist))
 
 (setq initial-frame-alist
       '((width . 120)
         (height . 40)
         (top . 40)
-        (left . 100)))
+        (left . 400)))

@@ -167,3 +167,10 @@
         (height . 40)
         (top . 40)
         (left . 100)))
+
+;;; zsh
+(use-package exec-path-from-shell
+  :ensure t
+  :if (memq window-system '(mac ns))
+  :config
+  (exec-path-from-shell-initialize))
