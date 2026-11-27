@@ -152,3 +152,8 @@
         (height . 40)
         (top . 40)
         (left . 400)))
+
+;;; TypeScript
+(use-package typescript-ts-mode
+  :ensure nil
+  :mode ("\\.ts\\'" . typescript-ts-mode))
